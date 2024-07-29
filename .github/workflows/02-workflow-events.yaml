@@ -12,6 +12,8 @@ jobs:
         steps:
             - name: show the trigger
               run: echo "this workflow is trigerred by ${{ github.event_name }} event."
+              
+            - run: date
 
 
 
